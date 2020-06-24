@@ -1,9 +1,7 @@
 # DevcampViewTool
 various view specific methods for application I use.
 ## Installation
-
 Add this line to your application's Gemfile:
-
 ```ruby
 gem 'devcamp_view_tool'
 ```
@@ -18,8 +16,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
+```ruby
+DevcampViewTool::Renderer.copyright 'Jordan Hudgens','All right reserved'
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
